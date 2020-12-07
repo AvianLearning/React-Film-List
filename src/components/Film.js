@@ -1,6 +1,6 @@
-const Film = () => {
+const Film = ({name, url}) => {
     return (
-        <li>This will be a film</li>
+        <li>{name}</li>
     )
 };
 
