@@ -7,6 +7,33 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#root {
+  background-color: #eae7e7;
+  margin: auto;
+  padding: 10px;
+  width: 50%;
+}
+
+#root > ul > a > li {
+  margin-bottom: 8px;
+  color: #1e3f5d;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#root > #releases-button {
+  list-style: none;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #4c9eea;
+  color: #fff;
+  width: 80%;
+  border: 1px solid black;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

@@ -33,7 +33,8 @@ const Display = () => {
     return (
         <>
         <FilmList films={films}/>
-        <ul>
+        <hr/>
+        <ul id="releases-button">
             <li><a href="https://www.imdb.com/calendar/?region=gb">View more upcoming releases</a></li>
         </ul>
         </>
