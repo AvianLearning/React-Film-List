@@ -10,7 +10,6 @@ const FilmList = ({films}) => {
 
     return(
         <>
-        <h2>This will be the film list</h2>
         <ul>
             {filmList}
         </ul>

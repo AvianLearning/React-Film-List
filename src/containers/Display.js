@@ -32,8 +32,10 @@ const Display = () => {
 
     return (
         <>
-        <h2>This is the display container</h2>
         <FilmList films={films}/>
+        <ul>
+            <li><a href="https://www.imdb.com/calendar/?region=gb">View more upcoming releases</a></li>
+        </ul>
         </>
     );
 };
